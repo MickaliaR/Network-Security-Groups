@@ -15,6 +15,7 @@ In this tutorial, observations with various network traffic to and from Azure Vi
 - Network Protocols 
 - Wireshark (Protocol Analyzer)
 
+
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
@@ -58,7 +59,7 @@ In this tutorial, observations with various network traffic to and from Azure Vi
 <img src="https://i.imgur.com/EqIANg3.png"/> 
 </p> 
 <p> 
-- Open the Wireshark app and filter for "ICMP" traffic only. Open the command line within the Windows 10 Virtual Machine and ping the Linux Virtual Machine by using it's private IP address. Ping requests and replies will be seen within the Wireshark app. (Prompt: Ping 10.0.0.5)
+- Open the Wireshark app and filter for "ICMP" traffic only. Open the Command Prompt within the Windows 10 Virtual Machine and ping the Linux Virtual Machine by using it's private IP address. Ping requests and replies will be seen within the Wireshark app. (Prompt: Ping 10.0.0.5)
 </p> 
 <br /> 
 
@@ -114,7 +115,7 @@ In this tutorial, observations with various network traffic to and from Azure Vi
 <img src="https://i.imgur.com/VnztOqL.png"/) 
 </p> 
 <p> 
-- Within the Wireshark app on the Windows 10 Virtual Machine, filter for SSH traffic only. Within the command line on the Windows 10 Virtual Machine, use the SSH prompt to access the Linux Virtual Machine. (Prompt: ssh VM2@10.0.0.5). Observe the SSH traffic within the Wireshark app. 
+- Within the Wireshark app on the Windows 10 Virtual Machine, filter for SSH traffic only. Within the command promt on the Windows 10 Virtual Machine, use the SSH prompt to access the Linux Virtual Machine. (Prompt: ssh VM2@10.0.0.5). Observe the SSH traffic within the Wireshark app. 
 </p> 
 <br /> 
 
@@ -122,7 +123,7 @@ In this tutorial, observations with various network traffic to and from Azure Vi
 <img src="https://i.imgur.com/R29XnIv.png"/) 
 </p> 
 <p> 
-- Within the Wireshark app on the Windows 10 Virtual Machine, filter for DHCP traffic only. Within the command line on the Winows 10 Virtual Machine, attempt to issue the Windows 10 Virtual Machine a new IP address. (Prompt: ipconfig/renew). Observe the DHCP traffic within the Wireshark app and the new IP address issued by the DHCP prompt. 
+- Within the Wireshark app on the Windows 10 Virtual Machine, filter for DHCP traffic only. Within the command prompt on the Winows 10 Virtual Machine, attempt to issue the Windows 10 Virtual Machine a new IP address. (Prompt: ipconfig/renew). Observe the DHCP traffic within the Wireshark app and the new IP address issued by the DHCP prompt. 
 </p> 
 <br /> 
 
@@ -130,7 +131,7 @@ In this tutorial, observations with various network traffic to and from Azure Vi
 <img src="https://i.imgur.com/WhYuh7X.png"/) 
 </p> 
 <p> 
-- Within the Wireshark app on the Windows 10 Virtual Machine, filter for DNS traffic only. Within the command line on the Windows 10 Virtual Machine, use "nslookup" to observe what 'wwww.google.com' IP address is. (Prompt: nslookup wwww.google.com). Observe the DNS traffic within the Wireshark app. 
+- Within the Wireshark app on the Windows 10 Virtual Machine, filter for DNS traffic only. Within the command prompt on the Windows 10 Virtual Machine, use "nslookup" to observe what 'wwww.google.com' IP address is. (Prompt: nslookup wwww.google.com). Observe the DNS traffic within the Wireshark app. 
 </p> 
 <br /> 
 
